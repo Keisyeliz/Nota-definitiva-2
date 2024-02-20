@@ -8,7 +8,7 @@ Algoritmo ALG_NOTA2
 	leer correoInt
 	
 	Escribir 'tarea 1'
-	Escribir '1.Sí 2.No'
+	Escribir '1.SÃ­ 2.No'
 	leer var_tarea1
 	
 	si var_tarea1 = 1 Entonces
@@ -21,12 +21,12 @@ Algoritmo ALG_NOTA2
 	FinSi
 	
 	Escribir 'tarea 2'
-	Escribir '1.Sí 2.No'
+	Escribir '1.SÃ­ 2.No'
 	leer var_tarea2
 	
 	si var_tarea2 = 1 Entonces
 		Escribir 'ingrese su nota'
-		leer  nota1Flt
+		leer  nota2Flt
 		control2Int = 1
 	SiNo
 		//nota2Flt= ''
@@ -34,12 +34,12 @@ Algoritmo ALG_NOTA2
 	FinSi
 	
 	Escribir 'tarea 3'
-	Escribir '1.Sí 2.No'
+	Escribir '1.SÃ­ 2.No'
 	leer var_tarea3
 	
 	si var_tarea3 = 1 Entonces
 		Escribir 'ingrese su nota'
-		leer  nota1Flt
+		leer  nota3Flt
 		control3Int = 1
 	SiNo
 		//nota3Flt = ''
@@ -63,9 +63,4 @@ Algoritmo ALG_NOTA2
 	FinSi
 	
 	
-	
-	
-	
-	notafinalFlt = (nota1Flt + nota2Flt + nota3Flt) / 3 
-	Escribir 'SU NOTA FINAL ES       ',notafinalInt
 FinAlgoritmo
